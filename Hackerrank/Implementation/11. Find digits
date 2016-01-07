@@ -1,0 +1,18 @@
+__author__ = 'Mj'
+
+n = int(input())
+text = [[] for j in range(n)]
+for i in range(0, n):
+    text[i] = int(input())
+for i in range(0, n):
+    temp = int(text[i])
+    count = 0
+    while temp > 0:
+        t1 = temp % 10
+        if t1 != 0:
+            if text[i] % t1 == 0:
+                count += 1
+        temp /= 10
+        temp = int(temp)
+
+    print(count)

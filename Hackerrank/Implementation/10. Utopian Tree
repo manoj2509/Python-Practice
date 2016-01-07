@@ -1,0 +1,10 @@
+__author__ = 'Mj'
+n = int(input())
+text = [[] for j in range(n)]
+for i in range(0, n):
+    text[i] = int(input())
+for i in range(0, n):
+    if text[i] % 2 == 0:
+        print(int(2**(text[i] / 2 + 1) - 1))
+    else:
+        print(int(2**((text[i] + 1) / 2 + 1) - 2))

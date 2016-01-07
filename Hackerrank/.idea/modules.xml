@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CLRS/.idea/CLRS.iml" filepath="$PROJECT_DIR$/../CLRS/.idea/CLRS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DP/.idea/DP.iml" filepath="$PROJECT_DIR$/../DP/.idea/DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GFG/.idea/GFG.iml" filepath="$PROJECT_DIR$/../GFG/.idea/GFG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Hackerrank.iml" filepath="$PROJECT_DIR$/.idea/Hackerrank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Project Euler/.idea/Project Euler.iml" filepath="$PROJECT_DIR$/../Project Euler/.idea/Project Euler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TopCoder/.idea/TopCoder.iml" filepath="$PROJECT_DIR$/../TopCoder/.idea/TopCoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Trees/.idea/Trees.iml" filepath="$PROJECT_DIR$/../Trees/.idea/Trees.iml" />
+    </modules>
+  </component>
+</project>

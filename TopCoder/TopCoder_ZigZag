@@ -1,0 +1,18 @@
+text = list()
+text = input().split(" ")
+temp = list()
+for i in range(0, len(text)-1):
+    if((int(text[i+1]) - int(text[i])) > 0):
+        temp.append(1)
+    elif ((int(text[i+1]) - int(text[i])) == 0):
+        temp.append(0)
+    else:
+        temp.append(-1)
+count = 0
+for i in range(0, len(temp)-1):
+    if((int(temp[i]) * int(temp[i+1])) < 0):
+        count += 1
+if(len(temp) == 1):
+    print(1)
+else:
+    print (count+2)
