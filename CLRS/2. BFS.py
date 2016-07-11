@@ -27,9 +27,9 @@ Graph = {}
 visited = []
 level = {}
 parent = {}
-numEdges = int(input().strip())
+numEdges = int(input().strip())                             #all number of edges.
 for i in range(numEdges):
-    n1, n2 = list(map(int, input().strip().split()))
+    n1, n2 = list(map(int, input().strip().split()))        #input all edges a -> b.
     Graph.setdefault(n1, []).append(n2)
 so = int(input("Enter source: "))
 parent['Node ' + str(so)] = None
@@ -37,3 +37,6 @@ BFS(Graph, so)
 print(level)
 print(parent)
 print(visited)
+
+
+

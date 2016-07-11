@@ -29,3 +29,4 @@ def QuickSort(text, p, r):
 n = int(input().strip())
 text = input().strip().split(' ')
 QuickSort(text, 0, n)
+print(text)

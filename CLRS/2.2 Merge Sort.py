@@ -28,6 +28,7 @@ def merge(A, p, q, r):
         print(A[i], end=' ')
     print()
 
+
 def mergesort(A, p, r):
     if(p < r):
         q = (p + r)/2

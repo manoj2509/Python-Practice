@@ -10,7 +10,7 @@ def findAllPath(graph, start, end, path=[]):
         return None
     paths = []
     for node in graph[start]:
-        if node not in path:
+        if node not in path:                                #not getting in a loop
             newpath = findAllPath(graph, node, end, path)
             paths.append(newpath)
     return paths
